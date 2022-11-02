@@ -1,7 +1,6 @@
 [Udacity Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)
 # Project 1: Navigation
-
-### Project Overview
+## Project Overview
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
@@ -14,7 +13,8 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 ``3`` - turn right.<br>
 The task is episodic, and in order to solve the environment, your agent must get an **average score** of **+13** over **100 consecutive episodes**.
 
-### Dependencies
+
+## Dependencies
 
 To set up your python environment to run the code in this repository, follow the instructions below.
 
@@ -48,4 +48,15 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
-![Kernel][image2]
+
+## Training/Simulation notebook
+
+The code used to train and run a simulation for this project is contained in this file [Navigation.ipynb](P1-Value-based-methods/p1_navigation/Navigation.ipynb)
+
+When running the training, there will not be an simulation window.
+For the simulation of the trained agent, a window of the Unity Simulator will appear (as shown in the image below).
+
+![Unity Simulator](docs/images/udacity_p1_simulation_smaller.gif)
+
+## Report
+The report file, required for submiting this project to Udacity, is available in the file [Report.md](Report.md).
